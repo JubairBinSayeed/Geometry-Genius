@@ -50,4 +50,25 @@ const RectangleHightInput = document.getElementById('rectangle-height');
     rectangleArea.innerText = rectangle;
 
     console.log('area of rectangle is ', rectangle);
-}
+} 
+
+// Parallelogram
+
+ function calculateParallelogramArea(){
+    const ParallelogramBaseInput = document.getElementById('parallelogram-base');
+    const parallelogramBaseText = ParallelogramBaseInput.value;
+    const parallelogramBase = parseFloat(parallelogramBaseText);
+// console.log(parallelogramBase);
+
+const ParallelogramHightInput = document.getElementById('parallelogram-height');
+    const ParallelogramHightText = ParallelogramHightInput.value;
+    const parallelogramHeight = parseFloat(ParallelogramHightText);
+    // console.log(parallelogramHeight);
+
+    const parallelogram = parallelogramBase * parallelogramHeight;
+
+    const parallelogramArea = document.getElementById('parallelogram-area');
+    parallelogramArea.innerText = parallelogram;
+
+    console.log('area of parallelogram is : ', parallelogram);
+ }

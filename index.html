@@ -35,7 +35,7 @@
                       </div>
                     </div>
                   </div> 
-                  <!-- Triangle Container -->
+                  <!-- Rectangle Container -->
                   <div class="card w-96 bg-base-100 shadow-xl">
                     <img src="images/rectangle.png" alt="">
                     <div class="card-body">
@@ -53,40 +53,67 @@
                       </div>
                     </div>
                   </div>
-            <!-- Triangle  Container-->
+            <!-- Parallelogram  Container-->
             <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <img src="images/parallelogram.png" alt="">
                 <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h1 class="card-title font-bold text-2xl flex justify-center">Parallelogram</h1>
+                  <p class="card-title flex justify-center">Area (A) = b * h
+                  <div>
+                    <div class="text-2xl flex gap-5">
+                        <input type="text" placeholder="b" id="parallelogram-base" class="w-24">
+                        <span>cm</span>
+                        <input type="text" placeholder="h" id="parallelogram-height" class="w-24"><span>cm</span>
+                      </div>
+                    <p>Area : <span id="parallelogram-area"></span> <span>cm <sup>2</sup></span></p>
+                  </div>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-wide bg-blue-500 text-white text-xl font-bold hover:bg-blue-500"  onclick="calculateParallelogramArea()">Calculate</button>
                   </div>
                 </div>
               </div>
-              <!-- Triangle Container -->
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-              <!-- Triangle Container -->
+              <!-- Rhombus Container -->
               <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <img src="images/rhombus.png" alt="">
                 <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h1 class="card-title font-bold text-2xl flex justify-center">Parallelogram</h1>
+                  <p class="card-title flex justify-center">Area (A) = 0.5 * d<sub>2</sub>* d<sub>2</sub>
+                  <div>
+                    <p>Area : <span></span> <span>cm <sup>2</sup></span></p>
+                  </div>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-wide bg-blue-500 text-white text-xl font-bold hover:bg-blue-500">Calculate</button>
                   </div>
                 </div>
               </div>
-            </div>
+              <!-- Pentagon Container -->
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <img src="images/pentagon.png" alt="">
+                <div class="card-body">
+                  <h1 class="card-title font-bold text-2xl flex justify-center">Pentagon</h1>
+                  <p class="card-title flex justify-center">Area (A) = 0.5 * p * b
+                  <div>
+                    <p>Area : <span></span> <span>cm <sup>2</sup></span></p>
+                  </div>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-wide bg-blue-500 text-white text-xl font-bold hover:bg-blue-500">Calculate</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Ellipse container -->
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <img src="images/ellipse.png" alt="">
+                <div class="card-body">
+                  <h1 class="card-title font-bold text-2xl flex justify-center">Ellipse</h1>
+                  <p class="card-title flex justify-center">Area (A) = pie * a * b
+                  <div>
+                    <p>Area : <span></span> <span>cm <sup>2</sup></span></p>
+                  </div>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-wide bg-blue-500 text-white text-xl font-bold hover:bg-blue-500">Calculate</button>
+                  </div>
+                </div>
+              </div>
               <!-- Area Calculator -->
               <div class= "w-96 border-2 border-gray-500 rounded-md text-center mt-10 mb-20 mr-5">
                 <h3 class="text-3xl">Area Calculator</h3>
